@@ -1,7 +1,9 @@
 namespace my.bookshop;
 
 entity Books {
-  key ID : Integer;
+  key ID : UUID;
+  AuthorName:String;
   title  : String;
-  stock  : Integer;
+  Stock  : Integer;
+  AuthorNumber:String;
 }
